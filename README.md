@@ -28,6 +28,7 @@ Quick Example:
 ```
 
 Here the `./posts/` directory is where the HTML files will be placed and `./md/*.md` is where all the Markdown files are located
+Also an CSS file is included in the root directory of the repo
 
 ## Credits:
 Thanks to [hkim0331](https://github.com/hkim0331/md2html) for the script and helping in expanding it!
