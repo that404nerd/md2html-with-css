@@ -13,6 +13,9 @@ md2html() {
   # Github Markdown to HTML
   pandoc --standalone -o ${HTML} -f gfm -t html $1 --self-contained --css=${CSS}
 
+  # Markdown to HTML (with images)
+  # pandoc --resource-path=.:images --standalone -o ${HTML} -f gfm -t html $1 --self-contained --css="./styles.css"
+
   # Plain Markdown to HTML (Uncomment this if you want to use this command)
   # pandoc --standalone -o ${HTML} -f markdown -t html $1 --self-contained --css=${CSS}
 }
